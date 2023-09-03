@@ -56,4 +56,15 @@ position: relative;
     height: 1rem;
 }
 
+@media screen and (max-width:480px) {
+
+    .bg{
+        right: -20vW;
+        
+    }
+    
+
+    
+}
+
 
