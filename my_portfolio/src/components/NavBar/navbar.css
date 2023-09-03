@@ -22,7 +22,46 @@ width: 4rem;
 
 .desktopMenuListItem{
     margin: 1rem;
+    color: white;
     cursor: pointer;
+
+
+}
+.desktopMenuListItem:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+    
+   
+   
+}
+.active{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+
+}
+
+.desktopMenuBtn{
+
+    background:white;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    
+    
+}
+.desktopMenuImg{
+
+
+object-fit: cover;
+height: 1rem;
+width: 1rem;
+margin: 1rem;
 
 
 }
